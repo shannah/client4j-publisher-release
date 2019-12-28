@@ -1,0 +1,14 @@
+C4JPublisher.jar
+C4JPublisher.properties
+INDEX.LIST
+lib/C4JPublisher-impl.jar
+lib/C4JPublisher-resources.jar
+lib/CLDC11.jar
+lib/Client4J.jar
+lib/Client4JRuntime.jar
+lib/clove-io-0.1.jar
+lib/CN1SharedLibrary.jar
+lib/icns-core-1.2-SNAPSHOT.jar
+lib/JavaSE.jar
+lib/thumbnailator-0.4.8.jar
+lib/XMLLib.jar
