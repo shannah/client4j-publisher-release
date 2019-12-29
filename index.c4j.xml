@@ -4,12 +4,20 @@
     <![CDATA[
     
     
+    
+    
+    
+    
     A tool for deploying Java desktop applications over HTTP.
+  
+  
+  
+  
   
   
   ]]>
   </description>
+  <dependency commonName="javafx" trusted="false" version="&gt;= 11"/>
+  <jre version="&gt;= 11"/>
   <permission name="java.security.AllPermission"/>
-  <dependency commonName="javafx" trusted="false" version="~&gt; 11"/>
-  <jre version="~&gt; 11"/>
 </app>
