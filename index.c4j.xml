@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<app numScreenshots="0" title="C4J Publisher" updates="Auto" url="https://github.com/shannah/client4j/raw/master/Client4jPublisher/bin/C4JPublisher.jar" vendor="Web Lite Solutions Corp.">
+<app numScreenshots="0" title="C4J Publisher" updates="Auto" url="https://github.com/shannah/client4j-publisher-release/raw/master/C4JPublisher.jar" vendor="Web Lite Solutions Corp.">
   <description>
     <![CDATA[
     
+    
     A tool for deploying Java desktop applications over HTTP.
+  
   
   ]]>
   </description>
