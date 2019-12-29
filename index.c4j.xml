@@ -9,6 +9,7 @@
   
   ]]>
   </description>
-  <jre/>
   <permission name="java.security.AllPermission"/>
+  <dependency commonName="javafx" trusted="false" version="~&gt; 11"/>
+  <jre version="~&gt; 11"/>
 </app>
