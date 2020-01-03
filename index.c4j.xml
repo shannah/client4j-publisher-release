@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<app numScreenshots="0" title="C4J Publisher" updates="Auto" url="https://github.com/shannah/client4j-publisher-release/raw/master/C4JPublisher.jar" vendor="Web Lite Solutions Corp.">
+<app linuxAppUrl="https://github.com/shannah/client4j-publisher-release/raw/master/releases/linux/C4J.Publisher.tar.gz" linuxInstallerUrl="https://github.com/shannah/client4j-publisher-release/raw/master/releases/linux/C4J.Publisher.Installer.jci.tar.gz" macAppUrl="https://github.com/shannah/client4j-publisher-release/raw/master/releases/mac/C4J.Publisher.tar.gz" numScreenshots="0" title="C4J Publisher" updates="Auto" url="https://github.com/shannah/client4j-publisher-release/raw/master/C4JPublisher.jar" vendor="Web Lite Solutions Corp." windowsAppUrl="https://github.com/shannah/client4j-publisher-release/raw/master/releases/windows/C4J.Publisher.exe.zip" windowsInstallerUrl="https://github.com/shannah/client4j-publisher-release/raw/master/releases/windows/C4J.Publisher.Installer.jci.exe.zip">
   <description>
-    <![CDATA[
-    
-    
-    
-    
-    
-    
-    A tool for deploying Java desktop applications over HTTP.
-  
-  
-  
-  
-  
-  
-  ]]>
+    <![CDATA[A tool for deploying Java desktop applications over HTTP]]>
   </description>
   <dependency commonName="javafx" trusted="false" version="&gt;= 11"/>
   <jre version="&gt;= 11"/>
