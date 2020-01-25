@@ -1,0 +1,277 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+            
+            * {
+                font-family: "Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;
+                box-sizing: border-box;
+            }
+            
+            html {
+                font-size: 10px;
+            }
+            @media (min-width: 768px) {
+                html {
+                    font-size: 9px;
+                }
+            }
+            
+            @media (min-width: 992px) {
+                html {
+                    font-size: 9.5px;
+                }
+            }
+            
+            @media (min-width: 1200px) {
+                html {
+                    font-size: 10px;
+                }
+            }
+            
+            
+            
+            
+            
+            body {
+                font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+                font-size: 14px;
+                line-height: 1.42857143;
+                color: #333;
+                background-color: #fff;
+            }
+            
+            h1 {
+                margin: .67em 0;
+                font-size: 2em;
+            }
+            
+            p {
+                display: block;
+                margin-block-start: 1em;
+                margin-block-end: 1em;
+                margin-inline-start: 0px;
+                margin-inline-end: 0px;
+            }
+            
+            p {
+                margin: 0 0 10px;
+            }
+            
+            .lead {
+                margin-bottom: 20px;
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 1.4;
+            }
+            
+            @media (min-width: 768px) {
+                .lead {
+                    font-size: 21px;
+                }
+            }
+            
+            .body-content {
+                padding-top: 25px;
+                padding-bottom: 40px;
+            }
+            
+            .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+                font-family: inherit;
+                font-weight: 500;
+                line-height: 1.1;
+                color: inherit;
+            }
+            
+            .h1, .h2, .h3, h1, h2, h3 {
+                margin-top: 20px;
+                margin-bottom: 10px;
+            }
+            
+            .h1, h1 {
+                font-size: 36px;
+            }
+            
+            h1, h2, h3 {
+                font-family: "Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;
+                font-weight: 100;
+            }
+            h1, .faux-h1 {
+                font-size: 3rem;
+            }
+            
+            @media (min-width: 768px) {
+                h1, .faux-h1 {
+                    font-size: 4rem;
+                }
+            }
+            
+            
+            body {
+                font-weight: 400;
+                color: #444;
+                text-rendering: optimizeLegibility;
+            }
+            
+            button {
+                border: none;
+            }
+            
+            img {
+                vertical-align: middle;
+            }
+            
+            small {
+                font-size: 80%;
+            }
+            
+            .alt-downloads {
+                text-align: center;
+            }
+            
+            .alt-downloads .logo {
+                height: 100px;
+                width: 100px;
+                background-size: contain !important;
+                margin: 0 auto;
+            }
+            
+            .alt-downloads .logo.windows {
+                background: url(images/windows-logo.png) center center no-repeat;
+            }
+            
+            .alt-downloads .logo.linux {
+                background: url(images/linux-logo.png) center center no-repeat;
+            }
+            
+            .alt-downloads .logo.mac {
+                background: url(images/apple-logo.svg) center center no-repeat;
+            }
+                
+                
+            .swimlane {
+                padding: 6rem 0 6rem;
+                min-height: 30rem;
+                position: relative;
+            }
+            
+            .alt-downloads .download {
+                padding: 0 25px;
+                display: inline-block;
+                vertical-align: top;
+            }
+            
+            .downloads .download {
+                margin: 40px 0 40px;
+            }
+            
+            button, .link-button {
+                font-family: "Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;
+                font-weight: 600;
+                font-size: 20px;
+                padding: 15px 35px;
+                display: inline-block;
+                color: inherit;
+                cursor: pointer;
+            }
+            
+            
+            .dlink {
+                cursor: pointer;
+            }
+            
+            .alt-downloads .link-button {
+                color: white;
+                margin: 20px 0 5px;
+                padding: 10px 0;
+                font-size: 1.8rem;
+                width: 240px;
+                background-color: #0066B8;
+            }
+            
+            .alt-downloads .download-icon-accessible {
+                display: none;
+            }
+            
+            .alt-downloads .link-button img {
+                position: relative;
+                top: -2px;
+                margin-right: 10px;
+            }
+            
+            .small, small {
+                font-size: 85%;
+            }
+            
+            .alt-downloads .link-button small {
+                display: block;
+                margin-top: 0.75rem;
+                color: rgba(255,255,255,0.65);
+                font-size: 1.2rem;
+            }
+            
+            .text-center {
+                text-align: center;
+            }
+            
+            img.app-icon {
+                max-width: 100px;
+                max-height: 100px;
+            }
+            
+            .link-button {
+                display:block;
+            }
+            
+        </style>
+    </head>
+    
+    <body>
+        <h1 class="text-center"> Download <span data-var="app.title">C4J Publisher</span></h1>
+        <p class="text-center"><img src="images/icon.png" class="app-icon"/></p>
+        <p class="text-center"><span data-var="app.description">Bundle your desktop Java app as native Windows, Mac, and Linux apps</span></p>
+        
+        <div id="alt-downloads" class="swimlane alt-downloads download-buttons osx">
+              <div class="buttons">
+                <div class="download">
+                  <div class="logo windows"></div>
+                  <button class="link-button dlink" data-os="win" aria-label="Windows download" role="link">
+                    <img class="download-icon" src="images/download.svg" width="18px" height="18px" alt="Download VS Code">
+                    <img class="download-icon-accessible" src="images/download-black.svg" width="18px" height="18px" alt="Download VS Code"> Windows Installer
+                    <small>Windows 7, 8, 10</small>
+                  </button>
+                  <button class="link-button dlink" data-os="win" aria-label="Windows download" role="link">
+                    <img class="download-icon" src="images/download.svg" width="18px" height="18px" alt="Download VS Code">
+                    <img class="download-icon-accessible" src="images/download-black.svg" width="18px" height="18px" alt="Download VS Code"> Windows .exe
+                    <small>Windows 7, 8, 10</small>
+                  </button>
+    
+                  
+                </div>
+    
+                <div class="download">
+                  <div class="logo linux"></div>
+                  <button class="link-button dlink" data-os="linux64_deb" aria-label="Linux Debian Ubuntu download" role="link">
+                    <img class="download-icon" src="images/download.svg" width="18px" height="18px" alt="Download VS Code">
+                    <img class="download-icon-accessible" src="images/download-black.svg" width="18px" height="18px" alt="Download VS Code"> Linux Installer
+                    <small>Ubuntu, Debian, Redhat, etc..</small></button>
+                    <button class="link-button dlink" data-os="linux64_deb" aria-label="Linux Debian Ubuntu download" role="link">
+                      <img class="download-icon" src="images/download.svg" width="18px" height="18px" alt="Download VS Code">
+                      <img class="download-icon-accessible" src="images/download-black.svg" width="18px" height="18px" alt="Download VS Code"> Linux Binary
+                      <small>Ubuntu, Debian, Redhat, etc..</small></button>
+                  
+    
+                  
+                </div>
+                <div class="download">
+                  <div class="logo mac"></div>
+                  <button class="link-button dlink" data-os="osx" aria-label="Mac download" role="link">
+                    <img class="download-icon" src="images/download.svg" width="18px" height="18px" alt="Download VS Code">
+                    <img class="download-icon-accessible" src="images/download-black.svg" width="18px" height="18px" alt="Download VS Code"> Mac
+                    <small>macOS 10.10+</small></button>
+                </div>
+              </div>
+    
+            </div>
+    </body>
+</html>
